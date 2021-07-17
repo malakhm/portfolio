@@ -1,0 +1,498 @@
+body{
+    background-image: url('dark.jpg');
+}
+
+
+.mainCont{
+
+    border-style: hidden;
+    border-color: rgb(73, 173, 127);
+    border-radius: px;
+    box-shadow: rgb(20, 61, 22);
+}
+
+.photo{
+    display: block;
+    justify-content: center;
+    box-shadow: 20px 20px 50px 10px rgb(95, 252, 81);
+    background-image: url('dark4.jpg');
+    width: 175px;
+    height: 350px;
+    
+}
+
+#id1{
+ 
+  font-size: 24px;
+  font-family:Blippo, fantasy ;
+  color: rgb(72, 235, 72);
+  padding: 48px 32px;
+  border-radius: 40px;
+  background: url('nothing');
+  background-size: cover ;
+  margin-right: 100px;
+  margin-left: 20px;
+  margin-top: -200vw;
+
+
+}
+
+
+#id2{
+    display: inherit;
+    font-family: cursive;
+    font-style: italic;
+    color: ivory;
+}
+
+#general_info{
+
+  position: fixed;
+
+  color: rgb(166, 255, 139);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#education{
+  
+  color: rgb(166, 255, 139);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#id1 {
+  width: 400px;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+
+#love {
+  color: #9df8c3;
+  backdrop-filter: blur(3px); /* Safari 6.0 - 9.0 */
+  width: 450px;
+  animation: typing 2s steps(22), blink .1s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+  padding-top: 50px;
+  border-style: hidden;
+  
+  box-shadow: 20px 20px 50px 10px rgb(95, 252, 81);
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+
+/* gif position */
+
+.nature{
+  position: absolute;
+  margin: -75px 20px 70px 200px;
+}
+
+.cat{
+  position: absolute;
+  margin: -75px 20px 70px 200px;
+}
+
+.football{
+  position: absolute;
+  margin: -75px 20px 70px 200px;
+}
+
+.books{
+  position: absolute;
+  margin: -75px 20px 70px 200px;
+}
+
+.gym{
+  position: absolute;
+  margin: -75px 20px 70px 200px;
+}
+
+
+.gaming{
+  position: absolute;
+  margin: -75px 20px 70px 200px;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
+
+span {
+  position: justify;
+  margin-left: 750px;
+  margin-right: -10px;
+  margin-bottom: 25px;
+  transform: translate(-50%, -50%);
+  display: block;
+  color: #81ec8d;
+  font-size: 24px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+span::before {
+  content: "general info";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    30deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0;
+  z-index: -1;
+  transition: 1s;
+}
+
+span::after {
+  content: "general info";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0px;
+  transition: 1s;
+}
+
+span:hover:before {
+  top: 10px;
+  left: 10px;
+}
+
+span:hover:after {
+  top: -10px;
+  left: -10px;
+} 
+
+
+  
+
+#nav2 {
+  position: justify;
+  margin-left: 550px;
+  margin-right: 300px;
+  margin-bottom: 36px;
+  transform: translate(-20%, -35%);
+  display: block;
+  color: #81ec8d;
+  font-size: 24px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+#nav2::before {
+  content: "Education";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    30deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0;
+  z-index: -1;
+  transition: 1s;
+}
+
+#nav2::after {
+  content: "Education";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0px;
+  transition: 1s;
+}
+
+#nav2:hover:before {
+  top: 10px;
+  left: 10px;
+}
+
+#nav2:hover:after {
+  top: -10px;
+  left: -10px;
+} 
+
+
+
+#nav3 {
+  position: justify;
+  margin-left: 550px;
+  margin-right: 300px;
+  margin-bottom: 10px;
+  transform: translate(-20%, -35%);
+  display: block;
+  color: #81ec8d;
+  font-size: 24px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+#nav3::before {
+  content: "Skills";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    30deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0;
+  z-index: -1;
+  transition: 1s;
+}
+
+#nav3::after {
+  content: "Skills";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0px;
+  transition: 1s;
+}
+
+#nav3:hover:before {
+  top: 10px;
+  left: 10px;
+}
+
+#nav3:hover:after {
+  top: -10px;
+  left: -10px;
+} 
+
+
+
+#nav4 {
+  position: justify;
+  margin-left: 550px;
+  margin-right: 300px;
+  margin-bottom: -10px;
+  transform: translate(-20%, -35%);
+  display: block;
+  color: #81ec8d;
+  font-size: 24px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+#nav4::before {
+  content: "Contact me";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    30deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0;
+  z-index: -1;
+  transition: 1s;
+}
+
+#nav4::after {
+  content: "Contact me";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0px;
+  transition: 1s;
+}
+
+#nav4:hover:before {
+  top: 10px;
+  left: 10px;
+}
+
+#nav4:hover:after {
+  top: -10px;
+  left: -10px;
+} 
+
+
+
+
+h2{
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+}
+#skill_bar{
+
+  width: 40%;
+  height: 75%;
+  position: absolute;
+  top: 85%;
+  left: 70%;
+  transform: translate(-30%,-50%);
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #333;
+  box-shadow: 0px 20px 50px , #30093f
+}
+
+.skill_box{
+  box-sizing: border-box ;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.skill_box p{
+  color: #fff;
+  text-transform: uppercase;
+  margin:  0 0 10px;
+  padding: 0;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.skill_box p:nth-child(2){
+
+  float: right ;
+  position: relative;
+  top: -27px;
+  
+}
+
+.skill{
+
+  background: #262626;
+  padding: 4px;
+  box-sizing: border-box;
+  border: 1px solid #0fffb7;
+  border-radius: 2px;
+}
+
+.skill_level{
+
+  background: #0dff72;
+  height: 2px;
+  width: 1px;
+}
+
+
+
+.footer{
+  color: #b9f5c0;
+  clear: both ;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  margin-top: 100px;
+  padding: 0;
+  background-color: rgba(4, 19, 4, 0.966);
+  text-align: center;
+  
+}
+
+
+#facebook{
+  position: absolute;
+  margin-top: -130px;
+  margin-left: 350px;
+
+}
+
+#insta{
+  position: absolute;
+  margin-top: -90px;
+  margin-left: 350px;
+
+}
+
+#linkdin{
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 350px;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
