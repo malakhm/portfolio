@@ -47,7 +47,7 @@ body{
 
 #general_info{
 
-  position: fixed;
+  position: relative;
 
   color: rgb(166, 255, 139);
   font-family: Arial, Helvetica, sans-serif;
